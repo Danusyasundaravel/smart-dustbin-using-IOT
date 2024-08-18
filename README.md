@@ -8,10 +8,9 @@ The Smart Dustbin automatically opens its lid when it detects someone approachin
 ## Repository Structure
 
 - `code/`: Contains the Arduino code for triggering the IFTTT webhook.
-- `hardware/`: Includes the circuit diagram and list of required components.
 - `images/`: Photos and images related to the project.
 - `README.md`: This file, providing an overview and instructions.
-- 'requirements.txt':This file provides the required material to build the project
+- `requirements.txt`:This file provides the required material to build the project
 
 ## Getting Started
 
