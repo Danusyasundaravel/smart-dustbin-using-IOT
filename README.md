@@ -3,7 +3,14 @@ This project demonstrates how to build a Smart Dustbin using IoT components, suc
 
 ## Project Overview
 
-The Smart Dustbin automatically opens its lid when it detects someone approaching, using an ultrasonic sensor. Additionally, it can send a notification when the dustbin is full using IFTTT Webhooks.
+For making of smart dustbin, we use Node MCU, IR sensor, ultrasonic sensor, servomotor, jumper,
+IFTTT webhook is used. All the components are connected to the Node MCU board. This works
+in such a way that when it detects any dust, the lid of the dustbin gets opened due to the servomotor
+that will open and close the lid of the dustbin. An ultrasonic sensor and Node MCU are also used
+to build the dustbin. The ultrasonic sensor calculates the occupancy by detecting the trash in the
+dustbin. The distance between ultrasonic and trash is converted to percentage. IFTTT Webhooks
+is used to get the data from Node MCU and send an email whenever the trash level crosses the
+70% criteria.
 
 ## Repository Structure
 
