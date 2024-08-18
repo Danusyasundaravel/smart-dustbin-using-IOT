@@ -1,0 +1,16 @@
+ Arduino Code
+
+1. Upload the Code:
+   - Open the `smart_dustbin.ino` file from the `code/` directory in the Arduino IDE.
+   - Configure the Wi-Fi credentials in the code.
+   - Upload the code to your Arduino board.
+
+IFTTT Webhook Setup
+
+1. Create an IFTTT Account:
+   - Sign up for an account at [IFTTT](https://ifttt.com/).
+
+2. Create a New Applet:
+   - Choose the **"Webhooks"** service as the trigger.
+   - Set the event name (e.g., `dustbin_full`).
+   - Choose an action (e.g., send an email or notification).
